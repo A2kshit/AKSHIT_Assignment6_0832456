@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Web Form</title>
+</head>
+<body>
+    
+        <h1>Akshit Akshit</h1>
+   
+    <main>
+        <form action="#" method="get">
+            <div class="form">
+                <label for="FirstName">First Name</label>
+                <input type="text" id="FirstName" name="FirstName" placeholder="First Name" required>
+            </div>
+            <div class="form">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000" required>
+            </div>
+            <div class="form">
+                <label for="address">Address</label>
+                <textarea id="address" name="address" rows="3" placeholder="Type your comment here"></textarea>
+            </div>
+            <div class="form">
+                <label>Radio Box</label>
+                <label for="yes">Yes
+                <input type="radio" id="yes" name="radio">
+                </label>
+                <label for="no">No
+                <input type="radio" id="no" name="radio">
+                </label>
+            </div>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </main>
+
+
+    <footer>
+        &copy; Copyright 2023 | Akshit
+    </footer>
+
+
+</body>
+</html>
